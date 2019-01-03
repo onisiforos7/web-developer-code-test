@@ -8,6 +8,7 @@ In order to run you will need composer.
 1. Download project.
 2. Set up Virtual Host
 3. Set up the Database:
+  
   Edit .env file, I am using localhost and vagrant default credentials with the database name Web_dev_test.
         
         DB_CONNECTION=mysql <br>
