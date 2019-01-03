@@ -10,13 +10,19 @@ In order to run you will need composer.
 3 Set up the Database:
   Edit .env file, I am using localhost and vagrant default credentials with the database name Web_dev_test.
   
-  <u>DB_CONNECTION=mysql
+  <p>*DB_CONNECTION=mysql 
+  
   DB_HOST=127.0.0.1
+  
   DB_PORT=3306
+  
   DB_DATABASE=web_dev_test
+  
   DB_USERNAME=homestead
-  DB_PASSWORD=secret
-  </u>
+  
+  DB_PASSWORD=secret*
+  
+  </p>
   
 Run Migraitons & Seeds in order to get the tables and Action Items from Data file provided in Test.
 
