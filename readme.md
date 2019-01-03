@@ -9,6 +9,7 @@ In order to run you will need composer.
 2. Set up Virtual Host
 3. Set up the Database:
   Edit .env file, I am using localhost and vagrant default credentials with the database name Web_dev_test.
+        
         DB_CONNECTION=mysql <br>
         DB_HOST=127.0.0.1 <br>
         DB_PORT=3306 <br>
@@ -18,6 +19,7 @@ In order to run you will need composer.
 
   
 4. Run Migraitons & Seeds in order to get the tables and Action Items from Data file provided in Code Test
+        
         php artisan migrate --seed
 
 ## Notes
