@@ -28,7 +28,9 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
                     Action Items
                 </a>
+                @if(Route::is('upload'))
                 <a href="{{ URL::previous() }}">Go Back</a>
+                @endif
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
